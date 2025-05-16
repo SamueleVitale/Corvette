@@ -1,0 +1,290 @@
+   body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #111111;
+    color: #ffffff;
+  }
+  
+  header {
+    background-color: #111111;
+    padding: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .nav-link, .navbar-brand {
+    color: #111111;
+    font-weight: 400;
+  }
+  
+  .nav-link:hover {
+    color: #ff2c44;
+  }
+  
+  .hero-static {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .hero-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .hero-static-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .hero-static-caption {
+    position: absolute;
+    bottom: 20%;
+    border-radius: 8px;
+    margin-left: 48px;
+  }
+  
+  .hero-static-title {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    margin-left: 80px;
+    text-transform: uppercase;
+  }
+  
+  .hero-static-subtitle {
+    font-size: 1rem;
+    color: #ffffff;
+    opacity: 70%;
+    margin-bottom: 1rem;
+    margin-left: 80px;
+    font-style: italic;
+  }
+  
+  .btn-outline-custom {
+    border: 1px solid #ff2c44;
+    color: #ff2c44;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-outline-custom:hover {
+    background-color: #ff2c44;
+    color: #ffffff;
+  }
+  
+  .footer {
+    background-color: #111111;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    color: #ff2c44;
+  }
+  
+  .scroll-top {
+    cursor: pointer;
+    font-size: 24px;
+    color: #ff2c44;
+  }
+  
+  .vette-of-the-day-info {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .discover-block {
+    background-color: #111111;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .btn-custom {
+    background-color: #ff2c44;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #111111;
+  }
+  
+  .hero-generations{
+    background: url(images/hero-02.jpg) center/cover no-repeat;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 8px;
+  }
+  
+  .btn-outline-dark {
+    border: 1px solid #ff2c44;
+    color: #ffffff;
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: #ff2c44;
+    border-color: #ff2c44;
+    color: #fff;
+  }
+  
+  .generation-block {
+    background-color: #ffffff;
+    color: #111111;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 60vh;
+  }
+  
+  .generation-img {
+    width: 100%;
+    height: 60vh;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .generation-title {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .generation-years {
+    font-size: 1rem;
+    font-style: italic;
+    color: #111111;
+    opacity: 70%;
+    margin-bottom: 1rem;
+    margin-left: 80px;
+  }
+  
+  .btn-outline-custom {
+    border: 1px solid #ff2c44;
+    color: #ff2c44;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    margin-left: 80px;
+    margin-top: 15px;
+  }
+  
+  .btn-outline-custom:hover {
+    background-color: #ff2c44;
+    color: #ffffff;
+  }
+  
+  body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #111111;
+    color: #ffffff;
+  }
+  
+  .submit-section {
+    display: flex;
+    min-height: 100vh;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  
+  .submit-image {
+    background: url('images/hero-03.jpg') center center/cover no-repeat;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 60px;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+  
+  .submit-image h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 0.3rem;
+  }
+  
+  .submit-image h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .submit-image p {
+    font-style: italic;
+    color: #ffffff;
+    opacity: 70%;
+  }
+  
+  .submit-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 60px;
+    color: #111111;
+  }
+  
+  .submit-form h5 {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+  
+  .submit-form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    padding: 10px 14px;
+  }
+  
+  .submit-form .btn-custom {
+    background-color: #ff2c44;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    font-weight: 500;
+    margin-right: 10px;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-form .btn-custom:hover {
+    background-color: #e03345;
+  }
+  
+  .specific-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .about-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+  }
